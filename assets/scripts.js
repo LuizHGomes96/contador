@@ -9,3 +9,8 @@ function decrement() {
   currentNumber = currentNumber - 1;
   currentNumberWrapper.innerHTML = currentNumber;
 }
+
+function reset() {
+  currentNumber = 0;
+  currentNumberWrapper.innerHTML = currentNumber;
+}
